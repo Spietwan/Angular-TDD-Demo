@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mocha TSpec Runner</title>
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+<body ng-app=AddressBook>
+    <div id="mocha"></div>
+    <script src="bower_components/mocha/mocha.js"></script>
+    <script src="bower_components/chai/chai.js"></script>
+    <script>
+        mocha.setup('bdd');
+    </script>
+    <h1>Hello World!</h1>
+    <script src="main.js"></script>
+    <script src="main.spec.js"></script>
+    <script>
+        mocha.run();
+        1
+    </script>
+</body>
+</html>

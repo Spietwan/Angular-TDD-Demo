@@ -1,0 +1,22 @@
+{
+  "name": "angular-tdd-demo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Christian van Lierop <c.vlierop@genexis.eu>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.7",
+    "mocha": "^6.0.2",
+    "chai": "^4.2.0"
+  }
+}
